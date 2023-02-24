@@ -1,0 +1,25 @@
+.items {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(20, 17, 42);
+  color: white;
+  font-family: "DIN Alternate Bold";
+}
+
+.items span {
+  z-index: 1;
+  width: 150px;
+  position: relative;
+  right: 9rem;
+  top: 1.5rem;
+  font-size: 2rem;
+}
+
+.items img {
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+  opacity: 0.5;
+  margin-top: 50px;
+}

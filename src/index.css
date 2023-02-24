@@ -1,13 +1,24 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@font-face {
+  font-family: "DIN Medium";
+  src: local("DIN Medium"),
+    url("./assets/fonts/DIN/DIN/DIN\ Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DIN Alternate Bold";
+  src: local("DIN Alternate Bold"),
+    url("./assets/fonts/DIN/DIN/DIN\ Alternate\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DIN Alternate Light";
+  src: local("DIN Alternate Light"),
+    url("./assets/fonts/DIN/DIN/DIN\ Light.ttf") format("truetype");
 }
